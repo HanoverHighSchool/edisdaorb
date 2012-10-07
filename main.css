@@ -1,0 +1,29 @@
+body {
+    text-align: center;   
+}
+
+html, body { 
+    height: 100%; 
+    margin: 0px;
+}
+
+.allArticles {
+    width: 100%;
+    height: 100%;
+    border-spacing: 0px;
+}
+
+.article {
+    width: 33.33%;
+    height: 33.33%;
+}
+
+.one { background-color: #c92828; }
+.two { background-color: #3628c9; }
+.three { background-color: #28c9b1; }
+.four { background-color: #58c928; }
+.five { background-color: #6028c9; }
+.six { background-color: #c9b928; }
+.seven { background-color: #c97628; }
+.eight { background-color: #c9289b; }
+.nine { background-color: #81c928; }
