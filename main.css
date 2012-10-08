@@ -1,5 +1,7 @@
 body {
-    text-align: center;   
+    text-align: center;
+    font-family: Museo Slab, Helvetica, sans-serif;
+    font-size: 36px; 
 }
 
 html, body { 
@@ -19,11 +21,22 @@ html, body {
 }
 
 .one { background-color: #c92828; }
-.two { background-color: #3628c9; }
+.two { background-color: #81c928; }
 .three { background-color: #28c9b1; }
 .four { background-color: #58c928; }
-.five { background-color: #6028c9; }
+.five { background-color: #3628c9; }
 .six { background-color: #c9b928; }
 .seven { background-color: #c97628; }
 .eight { background-color: #c9289b; }
-.nine { background-color: #81c928; }
+.nine { background-color: #6028c9; }
+
+@font-face {
+    font-family: 'Museo Slab';
+    src: url('assets/fonts/Museo_Slab_500-webfont.eot');
+    src: url('assets/fonts/Museo_Slab_500-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/Museo_Slab_500-webfont.woff') format('woff'),
+         url('assets/fonts/Museo_Slab_500-webfont.ttf') format('truetype'),
+         url('assets/fonts/Museo_Slab_500-webfont.svg#MuseoSlab500Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
