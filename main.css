@@ -2,6 +2,12 @@ body {
     text-align: center;
     font-family: Museo Slab, Helvetica, sans-serif;
     font-size: 36px; 
+    user-select: red;
+}
+
+::selection {
+	background: #000000;
+	color: white;
 }
 
 html, body { 
@@ -18,17 +24,22 @@ html, body {
 .article {
     width: 33.33%;
     height: 33.33%;
+    border: 1px solid black;
 }
 
-.one { background-color: #c92828; }
-.two { background-color: #81c928; }
-.three { background-color: #28c9b1; }
-.four { background-color: #58c928; }
-.five { background-color: #3628c9; }
-.six { background-color: #c9b928; }
-.seven { background-color: #c97628; }
-.eight { background-color: #c9289b; }
-.nine { background-color: #6028c9; }
+.one { color: #c92828; }
+.two { color: #81c928; }
+.three { color: #28c9b1; }
+.four { color: #58c928; }
+.five { color: #3628c9; }
+.six { color: #c9b928; }
+.seven { color: #c97628; }
+.eight { color: #c9289b; }
+.nine { color: #6028c9; }
+
+.disabled {
+	color: gray;
+}
 
 @font-face {
     font-family: 'Museo Slab';
